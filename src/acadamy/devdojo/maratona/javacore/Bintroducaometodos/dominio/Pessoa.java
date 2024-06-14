@@ -6,8 +6,8 @@ public class Pessoa {
 
 
     public void imprimi() {
-        System.out.println(this.nome);
-        System.out.println(this.idade);
+        System.out.println(this.getNome());
+        System.out.println(this.getIdade());
     }
 
     public void setNome(String nome) {
