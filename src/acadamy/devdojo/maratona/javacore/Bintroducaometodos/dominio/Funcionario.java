@@ -1,10 +1,10 @@
 package acadamy.devdojo.maratona.javacore.Bintroducaometodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double[] salarios;
-    double media = 0;
+    private String nome;
+    private int idade;
+    private double[] salarios;
+    private double media = 0;
 
     public void imprimi(){
         System.out.println(this.nome);
